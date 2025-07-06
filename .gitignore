@@ -1,0 +1,29 @@
+# Node & Expo
+node_modules/
+.expo/
+dist/
+web-build/
+npm-debug.*
+
+# Secrets & Keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development
+
+# Native folders (for managed workflow)
+android/
+ios/
+
+# Expo auto-generated types
+expo-env.d.ts

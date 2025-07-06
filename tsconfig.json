@@ -1,0 +1,21 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"            // 🆕 Tambahkan ini
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "nativewind-env.d.ts",
+    "src/types/**/*.d.ts"     // 🆕 Pastikan folder ini ikut di-include
+  ]
+}
