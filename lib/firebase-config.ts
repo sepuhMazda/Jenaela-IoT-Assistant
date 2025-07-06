@@ -19,13 +19,13 @@ import ReactNativeAsyncStorage from "@react-native-async-storage/async-storage";
  * @type {Object}
  */
 const firebaseConfig = {
-  apiKey: "AIzaSyDJ_YxqLo6A27NoNh3R1xANOTBVIAL9czk",
-  authDomain: "buttoniot-52007.firebaseapp.com",
-  projectId: "buttoniot-52007",
-  storageBucket: "buttoniot-52007.firebasestorage.app",
-  messagingSenderId: "156560225665",
-  appId: "1:156560225665:web:9d711f3510f2bb607fe480",
-  databaseURL: "https://buttoniot-52007-default-rtdb.asia-southeast1.firebasedatabase.app"
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
+  databaseURL: process.env.EXPO_PUBLIC_FIREBASE_DATABASE_URL,
 };
 
 // ============================================================================
