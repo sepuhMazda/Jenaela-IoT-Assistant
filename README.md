@@ -1,5 +1,5 @@
 # What's up? Jenaela IoT Assistant
-The Jenaela IoT Assistant is an application that has being developed to control and monitor IoT devices that registered in the Jenaela system. The application is still under development to add more features and improvements.
+The Jenaela IoT Assistant is an application that has being developed to control and monitor IoT devices that registered in the Jenaela system. This application is still under development to add more features and improvements.
 
 ## Highligted Features
 Jenaela is built by simple and intuitive experience in mind, meaning users are able to use this app easily. Some features added in Jenaela are as follows:
